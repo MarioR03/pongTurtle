@@ -3,8 +3,8 @@ from paddle import Paddle
 from ball import Ball
 
 #code for the screen/display
-display = Screen()._root
-display.title("Pong by Mario Rodriguez")
+display = Screen()
+display.title("Pong clone by Mario Rodriguez")
 display.bgcolor("cyan")
 display.setup(width=800, height=600)
 display.tracer(0)
